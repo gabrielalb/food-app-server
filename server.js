@@ -61,4 +61,4 @@ router.post('/doc/:docID/worksheet/:worksheetID/cells', function(req, res) {
 	});
 });
 
-app.listen(process.argv[2]);
+app.listen(process.argv[2] ? process.argv[2] : 8080);
