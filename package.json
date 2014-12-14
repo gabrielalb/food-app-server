@@ -21,6 +21,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "edit-google-spreadsheet": "~0.2.12"
+    "edit-google-spreadsheet": "~0.2.12",
+    "express": "~4.10.6",
+    "body-parser": "~1.10.0"
   }
 }
