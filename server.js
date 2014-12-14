@@ -47,16 +47,16 @@ router.post('/doc/:docID/worksheet/:worksheetID/cells', function(req, res) {
 	  worksheetId: req.params.worksheetID
 	}, function run(err, spreadsheet) {
 	  if(err) {
-	  	return res.send(500, { msg: "Error while publishing!", msg_type: "error" });
+	  	return res.send(500, { message: "Error while publishing!", type: "error" });
 	  }
 	  spreadsheet.add(cellData);
 
 	  spreadsheet.send(function(err) {
 	    if(err) {
-	  		return res.send(500, { msg: "Error while publishing!", msg_type: "error" });
+	  		return res.send(500, { message: "Error while publishing!", type: "error" });
 	    }
 
-	    res.json({ msg: "Publish successful!", msg_type: "success" });
+	    res.json({ message: "Publish successful!", type: "success" });
 	  });
 	});
 });
