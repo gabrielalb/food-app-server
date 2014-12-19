@@ -9,4 +9,4 @@ npm install
 node server.js <port_number>
 ```
 
-Not specifying a port number will start the server on default with 8080
+Not specifying a port number will start the server on default with 4242
