@@ -23,6 +23,7 @@
   "devDependencies": {
     "edit-google-spreadsheet": "~0.2.12",
     "express": "~4.10.6",
-    "body-parser": "~1.10.0"
+    "body-parser": "~1.10.0",
+    "node-windows": "~0.1.7"
   }
 }
