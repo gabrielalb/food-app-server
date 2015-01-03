@@ -1,21 +1,11 @@
 {
-  "author": "Pawel Kozlowski & Peter Bacon Darwin",
-  "name": "angular-app",
-  "homepage": "https://github.com/angular-app/angular-app",
+  "author": "Gabriel Alb",
+  "name": "food-app-server",
   "version": "0.0.1-SNAPSHOT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:angular-app/angular-app.git"
+    "url": "git@github.com:gabywiz/food-app-server.git"
   },
-  "bugs": {
-    "url": "https://github.com/angular-app/angular-app/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/angular-app/angular-app/master/LICENSE"
-    }
-  ],
   "engines": {
     "node": ">= 0.8.4"
   },
@@ -24,6 +14,9 @@
     "edit-google-spreadsheet": "~0.2.12",
     "express": "~4.10.6",
     "body-parser": "~1.10.0",
-    "node-windows": "~0.1.7"
+    "node-windows": "~0.1.7",
+    "multer": "~0.1.6",
+    "passport-windowsauth": "~0.4.1",
+    "excel-parser": "~0.2.2"
   }
 }
